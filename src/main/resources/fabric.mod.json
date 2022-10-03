@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "core",
+  "id": "horde-core",
   "version": "${version}",
 
   "name": "Shale's Horde: Core",

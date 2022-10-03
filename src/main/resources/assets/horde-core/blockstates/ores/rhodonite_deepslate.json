@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "horde-core:block/ores/rhodonite_deepslate"
+    }
+  }
+}

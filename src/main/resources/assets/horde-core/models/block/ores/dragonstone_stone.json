@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "horde-core:block/ores/dragonstone_stone"
+  }
+}
