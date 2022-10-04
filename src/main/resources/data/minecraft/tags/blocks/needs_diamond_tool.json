@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "horde-core:ores/bismuth_blackstone",
+    "horde-core:ores/bismuth_basalt"
+  ]
+}

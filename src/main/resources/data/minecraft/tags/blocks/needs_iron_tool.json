@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "horde-core:ores/rhodonite_stone",
+    "horde-core:ores/rhodonite_deepslate",
+    "horde-core:ores/rhodonite_nether",
+    "horde-core:ores/rhodonite_end",
+    "horde-core:ores/dragonstone_stone",
+    "horde-core:ores/dragonstone_deepslate",
+    "horde-core:ores/dragonstone_nether",
+    "horde-core:ores/dragonstone_end"
+  ]
+}

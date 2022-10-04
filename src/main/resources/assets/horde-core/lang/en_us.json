@@ -1,0 +1,17 @@
+{
+  "block.horde-core.ores.dragonstone_stone": "Dragonstone Ore",
+  "block.horde-core.ores.dragonstone_deepslate":"Dragonstone Ore",
+  "item.horde-core.raw.dragonstone": "Raw Dragonstone",
+  "block.horde-core.ores.dragonstone_nether": "Nether Dragonstone Ore",
+  "item.horde-core.raw.dragonstone_nether": "Raw Nether Dragonstone",
+  "block.horde-core.ores.dragonstone_end": "End Dragonstone Ore",
+  "item.horde-core.raw.dragonstone_end": "Raw End Dragonstone",
+  "block.horde-core.ores.rhodonite_stone": "Rhodonite Ore",
+  "block.horde-core.ores.rhodonite_deepslate": "Rhodonite Ore",
+  "block.horde-core.ores.rhodonite_nether": "Rhodonite Ore",
+  "block.horde-core.ores.rhodonite_end": "Rhodonite Ore",
+  "item.horde-core.raw.rhodonite": "Raw Rhodonite",
+  "block.horde-core.ores.bismuth_basalt": "Bismuth Ore",
+  "block.horde-core.ores.bismuth_blackstone": "Bismuth Ore",
+  "item.horde-core.raw.bismuth": "Raw Bismuth"
+}

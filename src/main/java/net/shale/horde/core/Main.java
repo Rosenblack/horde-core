@@ -2,6 +2,9 @@ package net.shale.horde.core;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
+import net.shale.horde.core.items.raw_end;
+import net.shale.horde.core.items.raw_nether;
+import net.shale.horde.core.items.raw_overworld;
 import net.shale.horde.core.worldgen.end.dragonstone_end;
 import net.shale.horde.core.worldgen.end.rhodonite_end;
 import net.shale.horde.core.worldgen.nether.bismuth_basalt;
@@ -32,5 +35,9 @@ public class Main implements ModInitializer {
 		rhodonite_end.registerWorldGeneration();
 		bismuth_basalt.registerWorldGeneration();
 		bismuth_blackstone.registerWorldGeneration();
+
+		raw_overworld.registerModItems();
+		raw_nether.registerModItems();
+		raw_end.registerModItems();
 	}
 }
