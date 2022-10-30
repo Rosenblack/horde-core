@@ -6,11 +6,12 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.core.Main;
+import net.shale.horde.core.items.extra.glint;
 
 public class raw_nether {
     public static final Item RAW_DRAGONSTONE_NETHER = registerItem("raw/dragonstone_nether", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
-    public static final Item RAW_BISMUTH = registerItem("raw/bismuth", new Item(new FabricItemSettings()
+    public static final Item RAW_BISMUTH = registerItem("raw/bismuth", new glint(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
