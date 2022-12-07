@@ -10,6 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.core.Main;
+import net.shale.horde.core.util.itemCat;
 
 public class ore_end {
     public static final Block DRAGONSTONE_END_ORE = registerBlock("ores/dragonstone_end",
@@ -35,7 +36,7 @@ public class ore_end {
 
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), new BlockItem(block,
-                new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+                new FabricItemSettings().group(itemCat.MAIN)));
     }
 
     public static void registerBlock() {
